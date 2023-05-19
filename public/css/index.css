@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{    
+    flex-grow: 1;
+}
+
+span.login{    
+    margin-left: 50%;    
+}
+span.login a{
+    text-decoration: none;    
+}
+a#login{
+    background-color: blue;
+    color: white;
+}
